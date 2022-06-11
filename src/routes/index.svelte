@@ -41,7 +41,7 @@
 			Mis <span
 				class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-gray-500 relative inline-block"
 			>
-				<span class="relative text-white">proyectos</span>
+				<span class="relative text-white ">proyectos</span>
 			</span> recientes
 		</h1>
 	</article>
