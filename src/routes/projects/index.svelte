@@ -19,13 +19,23 @@
 </script>
 
 <svelte:head>
-	<title>My Portfolio projects</title>
+	<title>Mis proyectos</title>
 </svelte:head>
 
-<h1 class="font-bold mb-20 text-center text-5xl">Recent Projects by Me</h1>
+<div
+	class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5"
+>
+	<article class="prose lg:prose-xl">
+		<h1>
+			Mis <span
+				class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-gray-500 relative inline-block"
+			>
+				<span class="relative text-white ">proyectos</span>
+			</span> recientes
+		</h1>
+	</article>
 
-<div class="grid gap-10 md:grid-cols-4 md:px-10 lg:grid-cols-6 lg:-mx-52">
-	{#each projects as { name, slug, description, image }, index}
-		<ProjectCard {name} {description} url={image[0].url} {index} {slug} />
+	{#each projects as { name, slug, description, image }}
+		<ProjectCard {name} {description} url={image[0].url} {slug} />
 	{/each}
 </div>
