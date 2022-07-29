@@ -28,6 +28,22 @@ const PROJECT_FRAGMENT = gql`
 	}
 `;
 
+const POST_FRAGMENT = gql`
+	fragment PostDetails on Post {
+		title
+		slug
+		date
+		content
+		tags
+		coverImage {
+			url
+		}
+		authors {
+			name
+		}
+	}
+`;
+
 export const projectsQuery = gql`
 	${PROJECT_FRAGMENT}
 	query GetProjects {
