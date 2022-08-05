@@ -1,9 +1,7 @@
 <div class="mb-8">
-	<select
-		data-choose-theme
-		class="pr-9 select select-bordered select-primary bg-base-100 select-xs text-base-content"
-	>
-		<option disabled="disabled" selected="selected">Choose a theme</option>
+	<!-- <button class="btn btn-outline btn-primary">Button</button> -->
+	<select class="select select-bordered select-xs w-full max-w-xs mt-1">
+		<option disabled="disabled" selected="selected">Tema 🎨</option>
 		<option value="acid">Acid</option>
 		<option value="aqua">Aqua</option>
 		<option value="autumn">Autumn</option>
