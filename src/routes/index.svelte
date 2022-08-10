@@ -41,7 +41,7 @@
 	<div class="flex mb-5 items-start">
 		<div class="mr-3">
 			<h2
-				class="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-gray-500 via-white-500 to-black-500"
+				class="text-2xl font-bold bg-clip-text text-transparent bg-slate-100 from-gray-500 via-white-500 to-black-500"
 			>
 				{name}
 			</h2>

@@ -1,7 +1,7 @@
 import { client } from '$lib/graphql-client';
 import { gql } from 'graphql-request';
 
-const website = 'https://www.myporfolioproject.com';
+const website = 'https://franciscofunes.vercel.app/';
 
 export const get = async () => {
 	const query = gql`
