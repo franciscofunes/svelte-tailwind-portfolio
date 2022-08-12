@@ -3,7 +3,7 @@
 		data-choose-theme
 		class="pr-9 select select-bordered select-primary bg-base-100 select-xs text-base-content"
 	>
-		<option disabled="disabled" selected="selected">Choose a theme</option>
+		<option disabled="disabled" selected="selected">Tema 🎨</option>
 		<option value="acid">Acid</option>
 		<option value="aqua">Aqua</option>
 		<option value="autumn">Autumn</option>
