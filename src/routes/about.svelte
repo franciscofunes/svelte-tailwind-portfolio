@@ -30,13 +30,13 @@
 
 <!-- <h1 class="font-bold text-center mb-20 text-5xl">About me</h1> -->
 
-<div class="flex mb-40 items-end">
+<div class="flex mb-5 items-start">
 	<div class="mr-6">
-		<h2 class="text-3xl mb-4 font-bold tracking-wider">{name}</h2>
-		<p class="text-xl mb-4">{intro}</p>
+		<h2 class="text-3xl mt-10 mb-2 font-bold tracking-wider">{name}</h2>
+		<p class="text-xl  mb-2">{intro}</p>
 	</div>
 
-	<img class="mask mask-squircle h-48" src={url} alt={name} />
+	<img class="mask shadow mask-squircle mt-10 h-40" src={url} alt={name} />
 </div>
 
 <article div class="prose prose-lg">

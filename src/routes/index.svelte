@@ -38,7 +38,7 @@
 </h1>
 
 {#each authors as { name, intro, picture: { url } }}
-	<div class="flex mb-5 items-start">
+	<div class="flex  items-start ">
 		<div class="mr-3">
 			<h2
 				class="text-2xl font-bold bg-clip-text text-transparent bg-slate-100 from-gray-500 via-white-500 to-black-500"
@@ -52,9 +52,9 @@
 {/each}
 
 <div
-	class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5"
+	class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5 mt-4 "
 >
-	<article class="prose lg:prose-h4">
+	<article class="prose mb-2 lg:prose-h4 ">
 		<h1>
 			Mis <span
 				class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-gray-500 relative inline-block"
