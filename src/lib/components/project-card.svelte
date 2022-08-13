@@ -35,7 +35,7 @@
 					src={`/projects/${slug}`}
 				>
 					<EyeIcon />
-					<span class="m-2">Ver</span>
+					<span class="m-2">See</span>
 				</button>
 			</div>
 		</div>
