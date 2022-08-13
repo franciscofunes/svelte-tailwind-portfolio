@@ -28,7 +28,7 @@
 	<title>My Portfolio project | About {name}</title>
 </svelte:head>
 
-<h1 class="font-bold text-center mb-20 text-5xl">About Me</h1>
+<!-- <h1 class="font-bold text-center mb-20 text-5xl">About me</h1> -->
 
 <div class="flex mb-40 items-end">
 	<div class="mr-6">
