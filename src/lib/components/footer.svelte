@@ -25,7 +25,7 @@
 	</div>
 	<div>
 		<p>
-			Copyright &copy; {`${new Date().getFullYear()}`} - Todos los derechos reservados por Equaldev
+			Copyright &copy; {`${new Date().getFullYear()}`} - All rights reserved for enterprise Equaldev
 		</p>
 	</div>
 </footer>
