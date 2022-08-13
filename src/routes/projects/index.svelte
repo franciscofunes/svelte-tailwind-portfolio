@@ -19,7 +19,7 @@
 </script>
 
 <svelte:head>
-	<title>Mis proyectos</title>
+	<title>My projects</title>
 </svelte:head>
 
 <div
@@ -27,11 +27,11 @@
 >
 	<article class="prose mb-5 mt-0">
 		<h1>
-			Mis <span
+			My <span
 				class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-gray-500 relative inline-block"
 			>
-				<span class="relative text-white ">proyectos</span>
-			</span> recientes
+				<span class="relative text-white ">recent</span>
+			</span> projects
 		</h1>
 	</article>
 

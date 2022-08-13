@@ -21,7 +21,7 @@
 </script>
 
 <svelte:head>
-	<title>Mi portfolio | {project.name}</title>
+	<title>My portfolio | {project.name}</title>
 </svelte:head>
 
 <div class="sm:-mx-5 md:-mx-10 lg:-mx-20 xl:-mx-38 mb-5">

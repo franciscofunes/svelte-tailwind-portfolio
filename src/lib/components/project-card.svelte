@@ -31,7 +31,7 @@
 			</p>
 			<div class="card-actions justify-end">
 				<button
-					class="btn btn-primary shadow hover:opacity-100 duration-300 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300"
+					class="btn btn-primary shadow hover:opacity-100 duration-300 active:opacity-50 focus:outline-none focus:ring focus:ring-violet-300"
 					src={`/projects/${slug}`}
 				>
 					<EyeIcon />

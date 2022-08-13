@@ -30,7 +30,7 @@
 </svelte:head>
 
 <h1 class="font-bold text-center mb-10 text-5xl 1 m-5">
-	Bievenidos a mi <span
+	Welcome to my <span
 		class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-gradient-to-r from-purple-500 via-white-500 to-pink-500 relative inline-block mt-4"
 	>
 		<span class="relative text-white ">Portfolio</span>
